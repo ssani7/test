@@ -5,7 +5,12 @@ function openSwitch(){
 
 openSwitch();
 
-// properties 
-var item = {
-    
+// parameters
+function addTwoNumbers(input1, input2){
+    var summation = input1 + input2;
+    return summation
 }
+var number1 = 30;
+var number2 = 20;
+var result = addTwoNumbers(number1,number2);
+console.log(result)
