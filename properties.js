@@ -6,8 +6,12 @@ var item = {
 var showColor = item.color;
 var shwName = item.name;
 
-// to replace a property
-item.name = "newItem";
-item["name"] = thirdItem;
+//3 ways to replace a property of an object
+item.name = "secondItem"; //1st way
+item["name"] = "thirdItem"; //second way
+
+// 3rd way 
+var itemName = "name";
+item[itemName] = "fourthItem"
 
 console.log(item);

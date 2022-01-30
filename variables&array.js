@@ -20,17 +20,3 @@ else if(items.length == 4){
 else{
     console.log('you have less than 4 items on your desk');
 }
-
-//loops
-
-// while loops 
-    var i = 0;
-while( i < 10){
-    console.log(i);
-    i++;
-}
-
-// for loops
-for(i = 10; i >= 0; i--){
-    console.log(i);
-}
