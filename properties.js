@@ -3,6 +3,7 @@ var item = {
     color: "red",
     size: 25
 }
+//indexing a property of an object
 var showColor = item.color;
 var shwName = item.name;
 
