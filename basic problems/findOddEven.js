@@ -1,0 +1,1 @@
+// find odd and even number from an array
